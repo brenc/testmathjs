@@ -2,5 +2,5 @@
 
 ```
 # Assumes node and docker are installed
-npm i && docker compose up --build
+git clone https://github.com/brenc/testmathjs.git && cd testmathjs && npm i && docker compose up
 ```
