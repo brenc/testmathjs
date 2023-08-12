@@ -11,13 +11,3 @@ WORKDIR /app
 FROM base as runner
 
 CMD ["nodemon", "src/runner.js"]
-
-
-FROM base as test_mathjs
-
-CMD ["nodemon", "src/test_mathjs.js"]
-
-
-FROM base as test_lodash
-
-CMD ["nodemon", "src/test_lodash.js"]
